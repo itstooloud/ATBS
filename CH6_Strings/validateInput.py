@@ -7,7 +7,7 @@ while True:
 
 while True:
     print('Select a new password (letters and numbers only):')
-    password = input()
+    password = input()DIV
     if password.isalnum():
         break
     print('Passwords can only have letters and numbers.')
